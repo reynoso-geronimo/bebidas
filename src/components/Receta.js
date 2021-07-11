@@ -24,7 +24,8 @@ const useStyles = makeStyles(theme => ({
       [theme.breakpoints.up('sm')]: {
         width: 450,  
       },
-      maxHeight: 500,
+      maxWidth:320,
+      maxHeight: 480,
       overflowY: 'auto',
       backgroundColor: theme.palette.background.paper,
       boxShadow: theme.shadows[5],
